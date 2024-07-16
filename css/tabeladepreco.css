@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.topo{
+    background-color: #2f86d6;
+    position: relative;
+}
+
+.topo img{
+    width: 100px;
+    margin-left: 22%;
+    padding: 40px 0px;
+}
+
+h1{
+    font-size: 32px;
+    color: #000000;
+    position: absolute;
+    top: 44px;
+    left: 530px;
+}
+
+.topo p{
+    font-size: 16px;
+    color: #fff;
+    height: 50px;
+    position: absolute;
+    top: 82px;
+    left: 530px;
+}
+
+.link-topo{
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 66px;
+    right: 350px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 14px;
+}
+
+.conteudo-principal {
+    padding: 100px 0px;
+  }
+  
+  .conteudo-principal table{
+    margin: auto;
+  }
+  
+  .celula-escondida {
+    visibility: hidden;
+  }
+  
+  .celula-cabeçalho {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    background-color: #f1f3f7;
+  }
+  
+  .celula-cabeçalho p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #a8a4a4;
+  }
+  
+  .celula-cabeçalho h2 {
+    font-size: 36px;
+  }
+  
+  table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+  }
+  
+  .primeira-celula {
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  .marcador-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+  }
+
+.rodape{
+    margin-top: 80px;
+    position: relative;
+    height: 280px;
+    background-color: #2f86d6;
+}
+
+.rodape img{
+    width: 100px;
+    position: absolute;
+    left: 800px;
+    top: 50px;
+}
+
+.rodape h1{
+    position: absolute;
+    left: 910px;
+    top: 55px;
+}
+
+.rodape span{
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 910px;
+    top: 115px;
+    font-weight: 600;
+}
+
+.rodape .texto-rodape{
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.rodape p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.rodape-final{
+    background-color: #fff;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.rodape-final span{
+    color: #2f86d6;
+}
